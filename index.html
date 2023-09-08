@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lampada</title>
+    <style>
+        body{
+            margin-right: 150px;
+            margin-left: 100px;
+            margin-top: 50px;
+            background: rgb(250, 247, 247);
+            
+
+        }
+      
+    </style>
+</head>
+<body>
+    <div>
+    <h1>O que o JavaScript faz ?</h1>
+    <p>JavaScript pode mudar valores de um atributo do HTML</p>
+    <p>Nesse caso o JavaScript alterou o valor do src atributo da imagem</p>
+     </div>
+
+     <div id="lgt">
+    <button onclick="document.getElementById('mimg').src='img/pic_bulbon.gif'">Ligar a Luz</button>
+    <img id="mimg" src="img/pic_bulboff.gif" >
+    <button 
+    onclick="document.getElementById('mimg').src='img/pic_bulboff.gif'">Desligar a luz</button>
+    </div>
+</body>
+</html>
